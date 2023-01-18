@@ -1,0 +1,36 @@
+{
+  "env": {
+      "browser": true,
+      "node": true,
+      "commonjs": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "module"
+  },
+  "rules": {
+    "semi": ["error", "never"],
+    "quotes": ["error", "single"],
+    "comma-dangle": ["error", "never"],
+    "no-implicit-globals": "off",
+    "no-new-require":"off",
+    "max-len":0,
+    "arrow-parens": "off",
+
+    "promise/always-return": "error",
+    "promise/no-return-wrap": "error",
+    "promise/param-names": "error",
+    "promise/catch-or-return": "error",
+    "promise/no-native": "off",
+    "promise/no-nesting": "warn",
+    "promise/no-promise-in-callback": "warn",
+    "promise/no-callback-in-promise": "warn",
+    "promise/avoid-new": "warn",
+    "promise/no-new-statics": "error",
+    "promise/no-return-in-finally": "warn",
+    "promise/valid-params": "warn"
+  },
+  "plugins": ["fetch", "promise"],
+  "extends": ["eslint:recommended", "plugin:fetch/recommended"],
+  "ignorePatterns": ["esbuild.config.js"]
+}

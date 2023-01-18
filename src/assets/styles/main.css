@@ -1,0 +1,13 @@
+@import url('./var.css');
+@import url('./reset.css');
+@import url('./global.css');
+
+body {
+  font-family: 'Lexend', sans-serif;
+  letter-spacing: 1px;
+}
+
+button {
+  font-family: 'Lexend', sans-serif;
+  letter-spacing: 1px;
+}
