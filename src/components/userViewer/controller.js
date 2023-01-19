@@ -1,5 +1,4 @@
 export default ({ model }) => {
-  console.log({ model })
   const getAny = () => 'Any...'
 
   const setTitle = () => model.setTitle({ title: 'Outro Texto' })

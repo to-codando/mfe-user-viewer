@@ -23,7 +23,7 @@ specifiers:
   page: ^1.11.6
   shx: ^0.3.4
   standard: ^17.0.0
-  terezzu: 0.0.11
+  terezzu: 0.1.8
   universal-router: ^9.1.0
   watch: ^1.0.2
 
@@ -31,7 +31,7 @@ dependencies:
   htm: 3.1.1
   navigo: 8.11.1
   page: 1.11.6
-  terezzu: 0.0.11_htm@3.1.1
+  terezzu: 0.1.8_htm@3.1.1
   universal-router: 9.1.0
 
 devDependencies:
@@ -51,7 +51,7 @@ devDependencies:
   json-server: 0.17.1
   lint-staged: 13.1.0
   live-server: 1.2.2
-  msw: 0.49.2
+  msw: 0.49.3
   shx: 0.3.4
   standard: 17.0.0
   watch: 1.0.2
@@ -2761,7 +2761,7 @@ packages:
       debug: 4.3.4
       execa: 6.1.0
       lilconfig: 2.0.6
-      listr2: 5.0.6
+      listr2: 5.0.7
       micromatch: 4.0.5
       normalize-path: 3.0.0
       object-inspect: 1.12.3
@@ -2773,8 +2773,8 @@ packages:
       - supports-color
     dev: true
 
-  /listr2/5.0.6:
-    resolution: {integrity: sha512-u60KxKBy1BR2uLJNTWNptzWQ1ob/gjMzIJPZffAENzpZqbMZ/5PrXXOomDcevIS/+IB7s1mmCEtSlT2qHWMqag==}
+  /listr2/5.0.7:
+    resolution: {integrity: sha512-MD+qXHPmtivrHIDRwPYdfNkrzqDiuaKU/rfBcec3WMyMF3xylQj3jMq344OtvQxz7zaCFViRAeqlr2AFhPvXHw==}
     engines: {node: ^14.13.1 || >=16.0.0}
     peerDependencies:
       enquirer: '>= 2.3.0 < 3'
@@ -3053,8 +3053,8 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: true
 
-  /msw/0.49.2:
-    resolution: {integrity: sha512-70/E10f+POE2UmMw16v8PnKatpZplpkUwVRLBqiIdimpgaC3le7y2yOq9JmOrL15jpwWM5wAcPTOj0f550LI3g==}
+  /msw/0.49.3:
+    resolution: {integrity: sha512-kRCbDNbNnRq5LC1H/NUceZlrPAvSrMH6Or0mirIuH69NY84xwDruPn/hkXTovIK1KwDwbk+ZdoSyJlpiekLxEA==}
     engines: {node: '>=14'}
     hasBin: true
     requiresBuild: true
@@ -3080,7 +3080,7 @@ packages:
       node-fetch: 2.6.8
       outvariant: 1.3.0
       path-to-regexp: 6.2.1
-      strict-event-emitter: 0.2.8
+      strict-event-emitter: 0.4.3
       type-fest: 2.19.0
       yargs: 17.6.2
     transitivePeerDependencies:
@@ -4078,6 +4078,10 @@ packages:
       events: 3.3.0
     dev: true
 
+  /strict-event-emitter/0.4.3:
+    resolution: {integrity: sha512-uD0y7Wp3+ifPyfzIS+JrMvSnxFExHytmD5gTkndF1fi8Vrk2uiOY/2At73AwzLHz+RwrchegD8tHdowsfG7raQ==}
+    dev: true
+
   /string-argv/0.3.1:
     resolution: {integrity: sha512-a1uQGz7IyVy9YwhqjZIZu1c8JO8dNIe20xBmSS6qu9kv++k3JGzCVmprbNN5Kn+BgzD5E7YYwg1CcjuJMRNsvg==}
     engines: {node: '>=0.6.19'}
@@ -4183,8 +4187,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /terezzu/0.0.11_htm@3.1.1:
-    resolution: {integrity: sha512-BYEriqMlHtgMyRx6/1LgSoNEYJhdPR0zJRMqGkge4EywWV1bPKWfH3n/el24aNMl2gHdb94u+oJhK7DIYgSbUg==}
+  /terezzu/0.1.8_htm@3.1.1:
+    resolution: {integrity: sha512-7wJNiCaWhmJgpEKB1CbyzpnWH7L5z0rRtQa+bHR/Kf1/KASm4k7/4GxFFvbqPwuOsktg9RctPrxlXz5q23VcJQ==}
     peerDependencies:
       htm: ^3.1.1
     dependencies:

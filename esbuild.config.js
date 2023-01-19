@@ -27,6 +27,7 @@ const __dirname = dirname(__filename)
     aliasPlugin({
       '@/components': path.resolve(__dirname, './src/components'),
       '@/services': path.resolve(__dirname, './src/services'),
+      '@/routes': path.resolve(__dirname, './src/routes'),
       '@/utils': path.resolve(__dirname, './src/utils'),
       '@/assets': path.resolve(__dirname, './src/assets'),
       '@/mocks': path.resolve(__dirname, './src/mocks')
@@ -72,7 +73,7 @@ const __dirname = dirname(__filename)
     // Opens the local server on start.
     open: false,
     // Uses `PORT=...` or 8080 as a fallback.
-    port: 8082,
+    port: 8083,
     //Host
     host: 'localhost',
     // Uses `public` as the local server folder.
